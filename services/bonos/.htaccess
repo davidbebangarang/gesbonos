@@ -1,0 +1,7 @@
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION BEGIN
+PassengerAppRoot "/home/admin/public_html/services/bonos"
+PassengerBaseURI "/bonos"
+PassengerNodejs "/home/admin/nodevenv/public_html/services/bonos/10/bin/node"
+PassengerAppType node
+PassengerStartupFile server.js
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION END

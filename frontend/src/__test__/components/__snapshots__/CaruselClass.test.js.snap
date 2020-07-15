@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Bono Snapshot CaruselClass la UI del componente Footer 1`] = `
+<div>
+  <div
+    className="container"
+  >
+    <div
+      className="sc-EHOje fEidzb"
+    >
+      <ul
+        className="sc-bZQynM eYhPVL"
+        height={450}
+      />
+      <ul
+        className="sc-gzVnrw iSvKSU"
+      />
+      <div
+        className="sc-bwzfXH sc-htpNat iLYhoA"
+        height={450}
+        onClick={[Function]}
+      />
+      <div
+        className="sc-bwzfXH sc-bxivhb fzmTRd"
+        height={450}
+        onClick={[Function]}
+      />
+    </div>
+  </div>
+</div>
+`;

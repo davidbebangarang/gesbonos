@@ -1,0 +1,44 @@
+[
+    {
+        "idCliente":"dni",
+        "fecha": "2019-04-17",
+        "idTrans": "1",
+        "idBono": "1",        
+        "tituloBono": "Fisioterpia",
+        "precio": "120"        
+    },
+    {
+        "idCliente":"dni",
+        "fecha": "2019-08-10",
+        "idTrans": "2",
+        "idBono": "2",        
+        "tituloBono": "Baile",
+        "precio": "80"
+    },
+    {
+        "idCliente":"dni",
+        "fecha": "2020-01-04",
+        "idTrans": "3", 
+        "idBono": "1",       
+        "tituloBono": "Entrenamiento funcional",
+        "precio": "240"
+    },
+    {
+        "idCliente":"dni",
+        "fecha": "2020-03-12",
+        "idTrans": "3", 
+        "idBono": "1",       
+        "tituloBono": "Yoga",
+        "precio": "150"
+    }
+    
+]
+
+
+
+
+
+
+
+
+

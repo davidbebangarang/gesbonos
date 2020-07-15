@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer Snapshot Comprobar la UI del componente Footer 1`] = `
+<div
+  style={
+    Object {
+      "bottom": "0",
+      "width": "100%",
+    }
+  }
+>
+  <footer
+    className="page-footer font-small blue mt-5 panel-footer foot"
+  >
+    <div
+      className="footer-copyright text-center py-3"
+    >
+      © 2020 Copyright:
+      <a
+        className="link"
+        href="..."
+      >
+        Gesbonos.com
+      </a>
+    </div>
+  </footer>
+</div>
+`;

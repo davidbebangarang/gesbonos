@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.footer{
+  bottom: 0px;
+}
+
+.tarjeta{
+  cursor: pointer;
+  min-height: 400px;
+}
+.tarjeta:hover{
+  -webkit-box-shadow: 0px 0px 18px -5px rgba(0,0,0,0.6);
+-moz-box-shadow: 0px 0px 18px -5px rgba(0,0,0,0.6);
+box-shadow: 0px 0px 18px -5px rgba(0,0,0,0.6);
+}
+.points{
+  list-style:none
+}
+.todoAncho{
+  width: 100%;
+}
+.tercioAncho{
+  width: 50%;
+}
+.imgTamMax{
+  margin-top: 2%;
+  height: 150px;
+  max-width: 300px;
+}
+.redItem{
+  background-color: rgb(255, 57, 57);
+  color: white;
+}
+.centrado{
+  text-align: center;
+}
+.item-centrado {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 100%;
+}
+.img-perfil{
+  width: 50%;
+}
+@media (max-width: 1200px) {
+  .card-header{
+    font-size: 76%;
+  }  
+}
+@media (max-width: 992px) {
+  .ajuste{
+    min-width: 70%;
+    margin: 1% auto;
+  }
+  .centrado{
+    text-align: center;
+  }
+  .martop{
+    margin: 4% auto;
+  }
+  .anchoBoton{
+    height: 100%;
+  }
+}
