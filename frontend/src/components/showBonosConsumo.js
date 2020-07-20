@@ -6,7 +6,6 @@ class ShowBonosConsumo extends Component {
         super(props);
         this.state={apiResponse:'',structedResponse:''};
         this.url = process.env.REACT_APP_RUTA_USERS;
-        this.classes=["fisioterapia","baile","yoga","e. funcional"];
     }
     
     callAPI(userId,idInstance){
@@ -38,6 +37,10 @@ class ShowBonosConsumo extends Component {
         .then(res=>this.setState({apiResponse:res}))
         .catch(err=>this.setState({apiResponse:"No se han encontrado bonos de: "+userId}))
     }
+    /* CÓDIGO PARA AÑADIR BOTON CONSUMIR EN LA TARJETA DE BONO
+        
+        <button className="btn btn-primary" onClick={()=>this.consumeBono(this.props.userId,clave)}>Comsumir</button>
+    */
     
     async structResponse(res){
         
@@ -61,9 +64,7 @@ class ShowBonosConsumo extends Component {
                                       <div class="card-body">
                                           <h5 class="card-title">{clave}</h5>
                                           <h6 class="card-text mt-4 mb-4">Disponibles <span class="badge badge-success badge-pill">{bonos[i][clave]}</span></h6>
-                                          <button className="btn btn-primary" onClick={()=>this.consumeBono(this.props.userId,clave)}>
-                                              Comsumir
-                                          </button>
+                                          
                                       </div>
                                   </div>
                           </div>                   

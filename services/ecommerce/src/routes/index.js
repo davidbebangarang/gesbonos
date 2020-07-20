@@ -57,7 +57,7 @@ router.get('/instanceData/:idInstancia', async(req, res) => {
 
 
 //ruta para recogida de datos de pago
-router.get('/customers/:email', async (req, res) => {
+router.get('/customers/:idInstancia/:email', async (req, res) => {
 
   let instanceData = await instanceDataFunction(req.params.idInstancia);
 

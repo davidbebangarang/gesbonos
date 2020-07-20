@@ -70,7 +70,7 @@ class Bono extends Component {
 
       console.log("esto tiene bono images ",this.state.bono.images)
 
-      if (this.state.bono.images == "") {
+      if (this.state.bono.images === "") {
          console.log("estoy en el primer if")
          return <img className="card-img-top" src={Logo} alt="Card cap" />
 

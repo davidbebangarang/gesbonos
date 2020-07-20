@@ -123,8 +123,8 @@ class PayForm extends Component {
 
                             <div className="form-row">
                                 <div className="form-group col-md-8">
-                                <label for="inputState">Provincia</label>
-                                <select id="inputState" className="form-control" id="provincia" name="provincia" value={provincia} onChange={this.handleChange}>
+                                <label for="provincia">Provincia</label>
+                                <select className="form-control" id="provincia" name="provincia" value={provincia} onChange={this.handleChange}>
                                     <option selected value=''></option>
                                     <option selected value='alava'>Álava</option>
                                     <option value='albacete'>Albacete</option>

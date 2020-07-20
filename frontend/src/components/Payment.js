@@ -13,7 +13,7 @@ class Payment extends React.Component {
 
  render() { 
       
-       const {history,idInstancia,permition,publicKey}=this.props
+       const {history,idInstancia,publicKey}=this.props
        let style;
        let userLog = JSON.parse(localStorage.getItem("user"))
 

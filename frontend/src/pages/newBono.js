@@ -241,19 +241,19 @@ class newBono extends Component {
                     </div>
                 </div>
                 <div className="row">
-                            <div className="col-6">
-                                <label>IMAGEN PRINCIPAL</label>
-                                <input type="file" onChange={this.handleChangeImage}/>
-                                <button className="btn btn-secondary btn-sm" onClick={this.handleUpload} style={this.state.styleButtonSubir}>SUBIR</button>
-                                <img className="imgTamMax" src={this.state.url}/>
-                            </div>
-                            <div className="col-6">
-                                <label>IMAGEN SECUNDARIA</label>
-                                <input type="file" onChange={this.handleChangeImage2}/>
-                                <button className="btn btn-secondary btn-sm" onClick={this.handleUpload2} style={this.state.styleButtonSubir2}>SUBIR</button>
-                                <img className="imgTamMax" src={this.state.url2}/>
-                            </div>
-                        </div> 
+                    <div className="col-6">
+                        <label>IMAGEN PRINCIPAL</label>
+                        <input type="file" onChange={this.handleChangeImage} />
+                        <button className="btn btn-secondary btn-sm" onClick={this.handleUpload} style={this.state.styleButtonSubir}>SUBIR</button>
+                        <img className="imgTamMax" src={this.state.url} alt="ImagenPpal" />
+                    </div>
+                    <div className="col-6">
+                        <label>IMAGEN SECUNDARIA</label>
+                        <input type="file" onChange={this.handleChangeImage2} />
+                        <button className="btn btn-secondary btn-sm" onClick={this.handleUpload2} style={this.state.styleButtonSubir2}>SUBIR</button>
+                        <img className="imgTamMax" src={this.state.url2} alt="ImagenSec" />
+                    </div>
+                </div>
                 <button className="btn btn-primary mt-3" onClick={() => { this.updateBono() }}>GUARDAR CAMBIOS</button>
                 <Footer />
             </div>

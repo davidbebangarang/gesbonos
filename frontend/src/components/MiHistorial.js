@@ -21,8 +21,8 @@ class MiHistorial extends Component {
       
       const url = process.env.REACT_APP_RUTA_CUSTOMERS;
       console.log(`${url}${this.state.currentUser.email}`);
-      const { history } = this.props
-      fetch(`${url}${this.state.currentUser.email}`)
+      //const { history } = this.props
+      fetch(`${url}${this.props.idInstancia}/${this.state.currentUser.email}`)
          .then(res => res.json())
          .then(data => {
             this.setState({ datos: data });
