@@ -14,7 +14,7 @@
     "express": "^4.17.1",
     "express-fileupload": "^1.1.7-alpha.3",
     "express-ip": "^1.0.4",
-    "follow-redirects": "^1.11.0",
+    "follow-redirects": "^1.14.8",
     "morgan": "^1.10.0",
     "multer": "^1.4.2",
     "request": "^2.88.2",
